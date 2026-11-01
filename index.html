@@ -7,7 +7,7 @@
 :root{--pink:#e88cab;--pale:#f8e7ed;--cream:#fbf8f5;--ink:#433b3d;--muted:#887e80;--line:#eee2e4}
 *{box-sizing:border-box}body{margin:0;background:linear-gradient(135deg,#fbf4f1,#f8eaf0);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--ink)}
 .app{max-width:480px;margin:auto;min-height:100vh;background:#fffaf8;box-shadow:0 0 35px #7d52621a;position:relative;padding-bottom:84px}
-header{padding:24px 20px 12px;display:flex;justify-content:space-between;align-items:center}h1{font: bold 27px Georgia;margin:0}header small{color:var(--muted)}button,.pill{border:0;border-radius:22px;padding:11px 15px;background:var(--pale);color:var(--ink);font-weight:600;cursor:pointer}button.primary{background:var(--pink);color:white}.content{padding:10px 18px}.hero{background:var(--pale);border-radius:22px;padding:17px;margin:8px 0 17px}.hero h2{margin:0 0 5px;font-size:18px}.muted{color:var(--muted);font-size:13px}.section-title{display:flex;justify-content:space-between;align-items:center;margin:18px 0 10px}.section-title h3{margin:0;font-size:16px}.closets{display:grid;grid-template-columns:1fr 1fr;gap:11px}.closet{border:1px solid var(--line);border-radius:18px;padding:14px;background:white;min-height:115px;text-align:left}.closet b{display:block;margin:8px 0 3px}.closet .emoji{font-size:25px}.closet.selected{border:2px solid var(--pink);background:#fff6f8}.toolbar{display:flex;gap:8px;overflow:auto;padding:5px 0 12px}.toolbar button{white-space:nowrap;font-size:12px;padding:9px 13px}.toolbar button.active{background:var(--pink);color:white}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.item{background:white;border:1px solid var(--line);border-radius:15px;overflow:hidden;position:relative}.item img{width:100%;height:112px;object-fit:contain;background:#f7f3f1}.item .meta{padding:7px;font-size:12px}.item .meta b{display:block}.item .remove{position:absolute;right:5px;top:5px;padding:5px 8px;background:#ffffffdf}.empty{padding:28px 16px;text-align:center;color:var(--muted);background:#fff;border:1px dashed #e8cbd5;border-radius:18px}.nav{position:fixed;bottom:0;left:50%;transform:translateX(-50%);width:min(480px,100%);display:flex;justify-content:space-around;background:#fffdfc;border-top:1px solid var(--line);padding:10px 5px calc(10px + env(safe-area-inset-bottom));z-index:5}.nav button{background:none;padding:7px 9px;color:var(--muted);font-size:11px}.nav button.active{color:#d96f93}.nav span{display:block;font-size:20px;margin-bottom:3px}.page{display:none}.page.active{display:block}.row{display:flex;gap:9px;align-items:center}.row>*{flex:1}.field{width:100%;padding:12px;border:1px solid var(--line);border-radius:12px;background:white;color:var(--ink);margin:6px 0 12px}.upload{display:block;border:1.5px dashed #e5a9bd;padding:20px;text-align:center;border-radius:16px;background:#fff7fa;margin:10px 0}.preview{width:100%;max-height:220px;object-fit:contain;background:#f6f1ef;border-radius:14px}.mannequin{height:380px;border-radius:20px;background:linear-gradient(#f9f2f0,#f3e8e8);position:relative;overflow:hidden;display:flex;justify-content:center;align-items:center;margin:12px 0}.shop-mannequin{position:absolute;height:96%;width:auto;max-width:90%;filter:drop-shadow(0 5px 4px #6f55551c)}.layer{position:absolute;width:65%;height:68%;object-fit:contain;mix-blend-mode:multiply}.layer.top{top:18%;height:36%}.layer.bottom{top:44%;height:48%}.layer.jacket{top:13%;height:45%}.layer.shoes{bottom:2%;height:18%}.layer.accessory{top:36%;right:2%;width:30%;height:25%}.slot{border:1px solid var(--line);border-radius:13px;padding:9px;background:white;margin:7px 0}.slot label{font-size:12px;color:var(--muted);display:block;margin-bottom:5px}.slot select{width:100%;border:0;background:transparent;color:var(--ink);padding:5px}.look-card{border:1px solid var(--line);border-radius:15px;padding:12px;background:white;margin:10px 0}.look-thumbs{display:flex;gap:5px}.look-thumbs img{width:48px;height:55px;object-fit:contain;background:#f6f1ef;border-radius:8px}
+header{padding:24px 20px 12px;display:flex;justify-content:space-between;align-items:center}h1{font: bold 27px Georgia;margin:0}header small{color:var(--muted)}button,.pill{border:0;border-radius:22px;padding:11px 15px;background:var(--pale);color:var(--ink);font-weight:600;cursor:pointer}button.primary{background:var(--pink);color:white}.content{padding:10px 18px}.hero{background:var(--pale);border-radius:22px;padding:17px;margin:8px 0 17px}.hero h2{margin:0 0 5px;font-size:18px}.muted{color:var(--muted);font-size:13px}.section-title{display:flex;justify-content:space-between;align-items:center;margin:18px 0 10px}.section-title h3{margin:0;font-size:16px}.closets{display:grid;grid-template-columns:1fr 1fr;gap:11px}.closet{border:1px solid var(--line);border-radius:18px;padding:14px;background:white;min-height:115px;text-align:left}.closet b{display:block;margin:8px 0 3px}.closet .emoji{font-size:25px}.closet.selected{border:2px solid var(--pink);background:#fff6f8}.toolbar{display:flex;gap:8px;overflow:auto;padding:5px 0 12px}.toolbar button{white-space:nowrap;font-size:12px;padding:9px 13px}.toolbar button.active{background:var(--pink);color:white}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.item{background:white;border:1px solid var(--line);border-radius:15px;overflow:hidden;position:relative}.item img{width:100%;height:112px;object-fit:contain;background:#f7f3f1}.item .meta{padding:7px;font-size:12px}.item .meta b{display:block}.item .remove{position:absolute;right:5px;top:5px;padding:5px 8px;background:#ffffffdf}.empty{padding:28px 16px;text-align:center;color:var(--muted);background:#fff;border:1px dashed #e8cbd5;border-radius:18px}.nav{position:fixed;bottom:0;left:50%;transform:translateX(-50%);width:min(480px,100%);display:flex;justify-content:space-around;background:#fffdfc;border-top:1px solid var(--line);padding:10px 5px calc(10px + env(safe-area-inset-bottom));z-index:5}.nav button{background:none;padding:7px 9px;color:var(--muted);font-size:11px}.nav button.active{color:#d96f93}.nav span{display:block;font-size:20px;margin-bottom:3px}.page{display:none}.page.active{display:block}.row{display:flex;gap:9px;align-items:center}.row>*{flex:1}.field{width:100%;padding:12px;border:1px solid var(--line);border-radius:12px;background:white;color:var(--ink);margin:6px 0 12px}.upload{display:block;border:1.5px dashed #e5a9bd;padding:20px;text-align:center;border-radius:16px;background:#fff7fa;margin:10px 0}.preview{width:100%;max-height:220px;object-fit:contain;background:#f6f1ef;border-radius:14px}.mannequin{height:380px;border-radius:20px;background:linear-gradient(#f9f2f0,#f3e8e8);position:relative;overflow:hidden;display:flex;justify-content:center;align-items:center;margin:12px 0}.shop-mannequin{position:absolute;z-index:1;height:96%;width:auto;max-width:90%;filter:drop-shadow(0 5px 4px #6f55551c)}.layer{position:absolute;z-index:2;width:65%;height:68%;object-fit:contain;mix-blend-mode:normal;pointer-events:none;filter:drop-shadow(0 2px 2px #4b34341c)}.layer.top{top:18%;height:36%}.layer.bottom{top:44%;height:48%}.layer.jacket{top:13%;height:45%}.layer.shoes{bottom:2%;height:18%}.layer.accessory{top:36%;right:2%;width:30%;height:25%}.slot{border:1px solid var(--line);border-radius:13px;padding:9px;background:white;margin:7px 0}.slot label{font-size:12px;color:var(--muted);display:block;margin-bottom:5px}.slot select{width:100%;border:0;background:transparent;color:var(--ink);padding:5px}.look-card{border:1px solid var(--line);border-radius:15px;padding:12px;background:white;margin:10px 0}.look-thumbs{display:flex;gap:5px}.look-thumbs img{width:48px;height:55px;object-fit:contain;background:#f6f1ef;border-radius:8px}
 </style></head>
 <body><div class="app">
 <header><div><h1>mi armario ♡</h1><small>by Maria Crespo · tu estilo, a tu manera</small></div><button onclick="showPage('closets')">⌂</button></header>
@@ -40,13 +40,13 @@ header{padding:24px 20px 12px;display:flex;justify-content:space-between;align-i
   <button type="button" onclick="openCrop()">✂️ Recortar</button>
   <button type="button" id="removeBgBtn" onclick="removeBackgroundAI()">✧ Quitar fondo con IA</button>
  </div>
- <p class="muted" style="margin-bottom:0">El recorte es manual. La eliminación de fondo funciona mejor con fondos lisos claros; puede necesitar retoques.</p>
+ <p id="bgStatus" class="muted" role="status" aria-live="polite" style="margin:9px 0 0">El recorte inteligente funciona en el dispositivo y puede necesitar retoques si el fondo no es uniforme.</p>
 </div>
 <label class="muted">Nombre de la prenda</label><input class="field" id="itemName" placeholder="Ej. Vaqueros rectos azules">
 <label class="muted">Categoría</label><select class="field" id="category"><option>Pantalones</option><option>Faldas</option><option>Shorts</option><option>Partes de arriba</option><option>Vestidos</option><option>Chaquetas</option><option>Calzado</option><option>Accesorios</option></select>
 <label class="muted">Guardar también en…</label><select class="field" id="closetChoice"></select>
 <button class="primary" style="width:100%" onclick="saveItem()">Guardar en mi armario</button>
-<p class="muted">Las fotos se guardan en este dispositivo. El recorte automático inteligente del fondo requiere conectar un servicio de edición de imágenes; en esta versión se conservan las fotos originales.</p>
+<p class="muted">Las prendas se guardan en este dispositivo. Puedes recortar la foto o probar a quitar un fondo uniforme; siempre podrás guardar la imagen original.</p>
 </div></section>
 <section id="outfits" class="page"><div class="content">
 <div class="section-title"><h3>Crear outfit</h3><span class="muted">Combina tus prendas</span></div>
@@ -85,41 +85,152 @@ function openCloset(n){currentCloset=n;currentFilter='Todas';showPage('wardrobe'
 function openGeneral(btn){currentCloset='Armario general';currentFilter='Todas';showPage('wardrobe',btn)}
 function renderWardrobe(){document.getElementById('wardrobeTitle').textContent=currentCloset;document.getElementById('filters').innerHTML=cats.map(c=>`<button class="${c===currentFilter?'active':''}" onclick="currentFilter='${c}';renderWardrobe()">${c}</button>`).join('');let list=items.filter(i=>(currentCloset==='Armario general'||i.closets.includes(currentCloset))&&(currentFilter==='Todas'||i.category===currentFilter));document.getElementById('itemsGrid').innerHTML=list.length?list.map(i=>`<div class="item"><button class="remove" onclick="deleteItem(${i.id})">×</button><img src="${i.src}"><div class="meta"><b>${esc(i.name)}</b><span class="muted">${i.category}</span></div></div>`).join(''):'<div class="empty" style="grid-column:1/-1">Todavía no hay prendas aquí.<br>Añade una foto para empezar ✨</div>'}
 function fillClosetChoice(){document.getElementById('closetChoice').innerHTML='<option value="">Solo armario general</option>'+closets.map(c=>`<option value="${esc(c.name)}">${esc(c.name)}</option>`).join('')}
-document.getElementById('photo').addEventListener('change',e=>{let f=e.target.files[0];if(!f)return;let r=new FileReader();r.onload=()=>{photoData=r.result;originalPhoto=photoData;let p=document.getElementById('preview');p.src=photoData;p.hidden=false;document.getElementById('photoTools').hidden=false};r.readAsDataURL(f)});
-function openCrop(){if(!photoData)return;cropImage=new Image();cropImage.onload=()=>{let c=document.getElementById('cropCanvas'),maxW=c.parentElement.clientWidth-36,maxH=window.innerHeight*.55;cropScale=Math.min(maxW/cropImage.width,maxH/cropImage.height,1);c.width=Math.round(cropImage.width*cropScale);c.height=Math.round(cropImage.height*cropScale);cropRect={x:c.width*.1,y:c.height*.08,w:c.width*.8,h:c.height*.84};drawCrop();showPage('cropEditor')};cropImage.src=photoData}
-function drawCrop(){let c=document.getElementById('cropCanvas'),ctx=c.getContext('2d');ctx.clearRect(0,0,c.width,c.height);ctx.drawImage(cropImage,0,0,c.width,c.height);if(!cropRect)return;ctx.fillStyle='rgba(35,25,30,.42)';ctx.fillRect(0,0,c.width,c.height);ctx.clearRect(cropRect.x,cropRect.y,cropRect.w,cropRect.h);ctx.save();ctx.strokeStyle='#e66f98';ctx.lineWidth=3;ctx.setLineDash([7,4]);ctx.strokeRect(cropRect.x,cropRect.y,cropRect.w,cropRect.h);ctx.setLineDash([]);ctx.fillStyle='#e66f98';[[cropRect.x,cropRect.y],[cropRect.x+cropRect.w,cropRect.y],[cropRect.x,cropRect.y+cropRect.h],[cropRect.x+cropRect.w,cropRect.y+cropRect.h]].forEach(([x,y])=>{ctx.beginPath();ctx.arc(x,y,6,0,Math.PI*2);ctx.fill()});ctx.restore()}
-const cropCanvas=document.getElementById('cropCanvas');cropCanvas.addEventListener('pointerdown',e=>{if(!cropImage)return;let r=cropCanvas.getBoundingClientRect(),x=(e.clientX-r.left)*cropCanvas.width/r.width,y=(e.clientY-r.top)*cropCanvas.height/r.height;cropStart={x,y};cropRect={x,y,w:1,h:1};cropCanvas.setPointerCapture(e.pointerId);drawCrop()});cropCanvas.addEventListener('pointermove',e=>{if(!cropStart)return;let r=cropCanvas.getBoundingClientRect(),x=(e.clientX-r.left)*cropCanvas.width/r.width,y=(e.clientY-r.top)*cropCanvas.height/r.height;cropRect={x:Math.min(x,cropStart.x),y:Math.min(y,cropStart.y),w:Math.abs(x-cropStart.x),h:Math.abs(y-cropStart.y)};drawCrop()});cropCanvas.addEventListener('pointerup',()=>{cropStart=null});
-function applyCrop(){if(!cropImage||!cropRect||cropRect.w<10||cropRect.h<10){alert('Dibuja primero el recuadro de recorte.');return}let sx=cropRect.x/cropScale,sy=cropRect.y/cropScale,sw=cropRect.w/cropScale,sh=cropRect.h/cropScale,c=document.createElement('canvas');c.width=Math.round(sw);c.height=Math.round(sh);c.getContext('2d').drawImage(cropImage,sx,sy,sw,sh,0,0,c.width,c.height);photoData=c.toDataURL('image/png');document.getElementById('preview').src=photoData;showPage('add')}
-let bgRemovalModule=null;
-async function removeBackgroundAI(){
+document.getElementById('photo').addEventListener('change',e=>{
+ const f=e.target.files[0];if(!f)return;
+ const reader=new FileReader();
+ reader.onload=()=>{
+  const img=new Image();
+  img.onload=()=>{
+   const max=1600,scale=Math.min(1,max/Math.max(img.width,img.height));
+   const c=document.createElement('canvas');
+   c.width=Math.max(1,Math.round(img.width*scale));c.height=Math.max(1,Math.round(img.height*scale));
+   c.getContext('2d').drawImage(img,0,0,c.width,c.height);
+   photoData=c.toDataURL('image/jpeg',.86);originalPhoto=photoData;
+   const p=document.getElementById('preview');p.src=photoData;p.hidden=false;
+   document.getElementById('photoTools').hidden=false;
+   document.getElementById('bgStatus').textContent='Foto cargada. Puedes recortarla o probar el recorte inteligente.';
+  };
+  img.onerror=()=>alert('No se ha podido abrir la fotografía. Prueba con otro archivo.');
+  img.src=reader.result;
+ };
+ reader.onerror=()=>alert('No se ha podido leer el archivo.');
+ reader.readAsDataURL(f);
+});
+function openCrop(){
+ if(!photoData){alert('Primero elige una fotografía.');return}
+ cropImage=new Image();
+ cropImage.onload=()=>{
+  showPage('cropEditor');
+  requestAnimationFrame(()=>{
+   const c=document.getElementById('cropCanvas');
+   const maxW=Math.max(220,Math.min(window.innerWidth-72,420));
+   const maxH=Math.max(240,window.innerHeight*.52);
+   cropScale=Math.min(maxW/cropImage.width,maxH/cropImage.height,1);
+   c.width=Math.max(1,Math.round(cropImage.width*cropScale));
+   c.height=Math.max(1,Math.round(cropImage.height*cropScale));
+   cropRect={x:c.width*.06,y:c.height*.04,w:c.width*.88,h:c.height*.92};
+   drawCrop();
+  });
+ };
+ cropImage.onerror=()=>alert('No se ha podido abrir esta imagen. Prueba con otra fotografía.');
+ cropImage.src=photoData;
+}
+function drawCrop(){
+ const c=document.getElementById('cropCanvas'),ctx=c.getContext('2d');
+ if(!cropImage||!c.width||!c.height)return;
+ ctx.clearRect(0,0,c.width,c.height);
+ ctx.drawImage(cropImage,0,0,c.width,c.height);
+ if(!cropRect)return;
+ ctx.fillStyle='rgba(35,25,30,.42)';ctx.fillRect(0,0,c.width,c.height);
+ ctx.clearRect(cropRect.x,cropRect.y,cropRect.w,cropRect.h);
+ ctx.save();ctx.strokeStyle='#e66f98';ctx.lineWidth=3;ctx.setLineDash([7,4]);
+ ctx.strokeRect(cropRect.x,cropRect.y,cropRect.w,cropRect.h);ctx.setLineDash([]);
+ ctx.fillStyle='#e66f98';
+ [[cropRect.x,cropRect.y],[cropRect.x+cropRect.w,cropRect.y],
+  [cropRect.x,cropRect.y+cropRect.h],[cropRect.x+cropRect.w,cropRect.y+cropRect.h]]
+ .forEach(([x,y])=>{ctx.beginPath();ctx.arc(x,y,6,0,Math.PI*2);ctx.fill()});
+ ctx.restore();
+}
+const cropCanvas=document.getElementById('cropCanvas');
+cropCanvas.addEventListener('pointerdown',e=>{
+ if(!cropImage||!cropCanvas.width)return;
+ const r=cropCanvas.getBoundingClientRect();
+ const x=Math.max(0,Math.min(cropCanvas.width,(e.clientX-r.left)*cropCanvas.width/r.width));
+ const y=Math.max(0,Math.min(cropCanvas.height,(e.clientY-r.top)*cropCanvas.height/r.height));
+ cropStart={x,y};cropRect={x,y,w:1,h:1};
+ cropCanvas.setPointerCapture(e.pointerId);drawCrop();
+});
+cropCanvas.addEventListener('pointermove',e=>{
+ if(!cropStart)return;
+ const r=cropCanvas.getBoundingClientRect();
+ const x=Math.max(0,Math.min(cropCanvas.width,(e.clientX-r.left)*cropCanvas.width/r.width));
+ const y=Math.max(0,Math.min(cropCanvas.height,(e.clientY-r.top)*cropCanvas.height/r.height));
+ cropRect={x:Math.min(x,cropStart.x),y:Math.min(y,cropStart.y),
+  w:Math.abs(x-cropStart.x),h:Math.abs(y-cropStart.y)};
+ drawCrop();
+});
+cropCanvas.addEventListener('pointerup',()=>{cropStart=null});
+cropCanvas.addEventListener('pointercancel',()=>{cropStart=null});
+function applyCrop(){
+ if(!cropImage||!cropRect||cropRect.w<10||cropRect.h<10){alert('Dibuja con el dedo o el ratón el rectángulo alrededor de la prenda.');return}
+ const sx=cropRect.x/cropScale,sy=cropRect.y/cropScale,sw=cropRect.w/cropScale,sh=cropRect.h/cropScale;
+ const c=document.createElement('canvas');c.width=Math.max(1,Math.round(sw));c.height=Math.max(1,Math.round(sh));
+ c.getContext('2d').drawImage(cropImage,sx,sy,sw,sh,0,0,c.width,c.height);
+ photoData=c.toDataURL('image/png');document.getElementById('preview').src=photoData;
+ document.getElementById('bgStatus').textContent='Recorte aplicado. Ya puedes guardar la prenda.';
+ showPage('add');
+}
+function removeBackgroundAI(){
  if(!photoData)return;
- const btn=document.getElementById('removeBgBtn'),status=document.getElementById('bgStatus');
- btn.disabled=true;btn.textContent='Procesando…';status.textContent='Cargando el modelo de recorte. La primera vez puede tardar un poco.';
- try{
-  if(!bgRemovalModule){
-   bgRemovalModule=await import('https://cdn.jsdelivr.net/npm/@imgly/background-removal@1.5.5/+esm');
-  }
-  status.textContent='La IA está detectando la prenda y separándola del fondo…';
-  const result=await bgRemovalModule.removeBackground(photoData,{model:'medium',output:{format:'image/png',quality:0.95}});
-  const url=URL.createObjectURL(result);
-  const dataUrl=await new Promise((resolve,reject)=>{const r=new FileReader();r.onload=()=>resolve(r.result);r.onerror=reject;r.readAsDataURL(result)});
-  photoData=dataUrl;
-  document.getElementById('preview').src=dataUrl;
-  status.textContent='Fondo eliminado. Puedes recortar la prenda o guardarla.';
-  URL.revokeObjectURL(url);
- }catch(err){
-  console.error(err);
-  status.textContent='No se pudo cargar o ejecutar el modelo. Comprueba tu conexión e inténtalo de nuevo.';
-  alert('No se ha podido quitar el fondo. Comprueba que tienes conexión a internet y vuelve a intentarlo.');
- }finally{
-  btn.disabled=false;btn.textContent='✧ Quitar fondo con IA';
- }
+ const btn=document.getElementById('removeBgBtn');
+ const status=document.getElementById('bgStatus');
+ btn.disabled=true;btn.textContent='Procesando…';
+ status.textContent='Analizando el fondo de la fotografía…';
+ setTimeout(()=>{
+  try{
+   const img=new Image();
+   img.onload=()=>{
+    try{
+     const max=1200,scale=Math.min(1,max/Math.max(img.width,img.height));
+     const c=document.createElement('canvas');
+     c.width=Math.max(1,Math.round(img.width*scale));
+     c.height=Math.max(1,Math.round(img.height*scale));
+     const ctx=c.getContext('2d',{willReadFrequently:true});
+     ctx.drawImage(img,0,0,c.width,c.height);
+     const frame=ctx.getImageData(0,0,c.width,c.height),d=frame.data,w=c.width,h=c.height;
+     // Estimate a plain background from the four image corners.
+     const pts=[[2,2],[w-3,2],[2,h-3],[w-3,h-3]];
+     let rr=0,gg=0,bb=0;
+     pts.forEach(([x,y])=>{const k=(y*w+x)*4;rr+=d[k];gg+=d[k+1];bb+=d[k+2]});
+     const bg=[rr/4,gg/4,bb/4],tol=58;
+     const seen=new Uint8Array(w*h),queue=new Int32Array(w*h);
+     let head=0,tail=0;
+     function similar(i){
+      const k=i*4,dr=d[k]-bg[0],dg=d[k+1]-bg[1],db=d[k+2]-bg[2];
+      return Math.sqrt(dr*dr+dg*dg+db*db)<tol;
+     }
+     function add(i){if(i<0||i>=w*h||seen[i]||!similar(i))return;seen[i]=1;queue[tail++]=i}
+     // Flood-fill only from the edges so matching colours inside the garment remain.
+     for(let x=0;x<w;x++){add(x);add((h-1)*w+x)}
+     for(let y=0;y<h;y++){add(y*w);add(y*w+w-1)}
+     while(head<tail){
+      const i=queue[head++],x=i%w,y=(i/w)|0;
+      d[i*4+3]=0;
+      if(x>0)add(i-1);if(x<w-1)add(i+1);if(y>0)add(i-w);if(y<h-1)add(i+w);
+     }
+     ctx.putImageData(frame,0,0);
+     photoData=c.toDataURL('image/png');
+     document.getElementById('preview').src=photoData;
+     status.textContent=tail?'Fondo uniforme eliminado. Revisa los bordes; si no queda bien, vuelve a elegir la foto original.':'No se ha detectado un fondo uniforme. Prueba con una foto sobre una pared lisa y bien iluminada.';
+     if(!tail)photoData=originalPhoto;
+    }catch(err){console.error(err);status.textContent='No se ha podido procesar esta imagen. Puedes usar el recorte manual.';photoData=originalPhoto}
+    btn.disabled=false;btn.textContent='✧ Recorte inteligente';
+   };
+   img.onerror=()=>{status.textContent='No se ha podido leer la fotografía.';btn.disabled=false;btn.textContent='✧ Recorte inteligente'};
+   img.src=photoData;
+  }catch(err){console.error(err);status.textContent='No se ha podido procesar. Prueba el recorte manual.';btn.disabled=false;btn.textContent='✧ Recorte inteligente'}
+ },30);
 }
 function saveItem(){if(!photoData){alert('Añade primero una foto.');return}let name=document.getElementById('itemName').value.trim()||document.getElementById('category').value;let c=document.getElementById('closetChoice').value;items.push({id:Date.now(),name,category:document.getElementById('category').value,closets:c?[c]:[],src:photoData});persist();photoData='';originalPhoto='';document.getElementById('photo').value='';document.getElementById('preview').hidden=true;document.getElementById('photoTools').hidden=true;document.getElementById('itemName').value='';currentCloset='Armario general';showPage('wardrobe')}
 function deleteItem(id){if(confirm('¿Eliminar esta prenda?')){items=items.filter(i=>i.id!==id);persist();renderWardrobe();renderClosets()}}
 const slots=[['Parte de arriba','Partes de arriba','layerTop'],['Parte de abajo','Pantalones|Faldas|Shorts','layerBottom'],['Chaqueta','Chaquetas','layerJacket'],['Calzado','Calzado','layerShoes'],['Accesorios','Accesorios','layerAccessory']];
 function renderSlots(){document.getElementById('slots').innerHTML=slots.map((s,k)=>{let allowed=s[1].split('|');let opts=items.filter(i=>allowed.includes(i.category));return `<div class="slot"><label>${s[0]}</label><select onchange="setLayer('${s[2]}',this.value)"><option value="">— No añadir —</option>${opts.map(i=>`<option value="${i.id}">${esc(i.name)}</option>`).join('')}</select></div>`}).join('')}
-function setLayer(id,val){let img=document.getElementById(id),item=items.find(i=>i.id==val);img.src=item?item.src:'';img.hidden=!item;loadLayerAdjustments()}
+function setLayer(id,val){
+ const img=document.getElementById(id),item=items.find(i=>i.id==val);
+ img.onload=()=>{img.hidden=false};img.onerror=()=>{img.hidden=true;alert('No se ha podido mostrar esta prenda. Vuelve a añadir la fotografía.')};
+ if(item){img.src=item.src;img.hidden=false}else{img.removeAttribute('src');img.hidden=true}
+ loadLayerAdjustments();
+}
 function loadLayerAdjustments(){let id=document.getElementById('adjustLayer').value,img=document.getElementById(id);document.getElementById('layerSize').value=img.dataset.scale||100;document.getElementById('layerY').value=img.dataset.offset||0}
 function adjustLayer(){let id=document.getElementById('adjustLayer').value,img=document.getElementById(id),scale=Number(document.getElementById('layerSize').value),offset=Number(document.getElementById('layerY').value);img.dataset.scale=scale;img.dataset.offset=offset;img.style.width=(id==='layerAccessory'?30:65)*scale/100+'%';img.style.height=(id==='layerAccessory'?25:id==='layerShoes'?18:id==='layerBottom'?48:id==='layerJacket'?45:36)*scale/100+'%';img.style.transform='translateY('+offset+'px)'}
 function saveLook(){let chosen=slots.map(s=>{let im=document.getElementById(s[2]);return im.hidden?null:im.src}).filter(Boolean);if(!chosen.length){alert('Elige al menos una prenda para tu outfit.');return}looks.push({name:document.getElementById('lookName').value.trim()||'Mi outfit',images:chosen,date:new Date().toLocaleDateString('es-ES')});persist();document.getElementById('lookName').value='';alert('Outfit guardado ♡');showPage('looks')}
